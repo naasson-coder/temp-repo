@@ -1,2 +1,18 @@
-Um teste qualquer.
+05 - Git Bash: ls // cd projeto // touch arquivo.txt // nano arquivo.txt // Um teste qualquer. // ^O // ^X // 
+ssh-keygen -t rsa -f "/c/Users/Naasson/.ssh/github" -C 'naasson.lemos@gmail.com' // eval "$(ssh-agent -s)" // Agent pid 403 // ssh-add /c/Users/Naasson/.ssh/github //
+No diretório da pasta do projeto:
+git init
+git config --global user.name "naasson-coder"
+git config --global user.email "naasson.lemos@gmail.com"
+git remote add origin git@github.com:naasson-coder/temp-repo.git
+
+git add .
+git commit -m 'Initial'
+git push origin master
+
+Ao fazer modificações:
+git status // git add . // git commit -m ‘Adicionando mais comandos’ // git push origin master - u 
+
+Mais mudanças:
+git status // git add . // git commit -m ‘Adicionando mais comandos’ // git push
 
